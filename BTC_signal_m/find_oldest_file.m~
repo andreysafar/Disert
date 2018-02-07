@@ -1,0 +1,12 @@
+function find_oldest_file(s_dir, prim)
+%Задача найти старейший фаил и выдать ссылку на его имя
+%  prim строка которая должна содержаться в имени файла 
+
+   for i=1:length(s_dir)
+  a=s(i).datenum
+  
+   end
+end
+
+end
+

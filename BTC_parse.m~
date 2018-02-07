@@ -1,0 +1,21 @@
+function BTC_parse(varargin)
+% Процедура
+% Задача: получить на выходе актуальные стаканы
+% формат выдачи: BTC_USD_stack_ask
+
+
+
+if isempty(varargin)
+        Chain='/home/safar/bitcoin/M-files/Wex_chain/';
+    end 
+s=dir(Chain);
+
+
+   %найти наистарейший фаил Depth    
+  find_oldest_file(s)
+   for i=1:length(s)
+  a=s(i).datenum
+  
+   end
+end
+end
